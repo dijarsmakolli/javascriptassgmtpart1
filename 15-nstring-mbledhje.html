@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Numeric String | Module: JS </title>
+</head>
+<body>
+    <!-- kjo me + domethene me mbledhje nuk funksionin sepse operatori + 
+    eshte edhe per bashkim edhe per mbledhje nese duam qe kjo te funksionoje 
+    duhet ta kthejme vleren string ne integer -->
+    <!-- ka vleren " " dhe thonjezat tregojne qe kjo vlere eshte string ne  qofte se  ja heqim thonjezat x dhe y 
+    atu na behet rezultati 110 domethene funksionon dhe mblidhen dhe vlera behet ne fund 110.-->
+    <h2>JavaScript Numbers</h2>
+
+    <p>JavaScript will NOT covert strings to numbers when adding::</p>
+
+    <p id="adder"></p>
+
+    <script>
+        let x = "100";
+        let y = "10";
+        let z = x + y;
+        document.getElementById("adder").innerHTML = z;
+    </script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!-- Numbers can be written with or without decimals -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Numbers |Module: JS</title>
+</head>
+<body>
+
+    <h2>JavaScript Numbers</h2>
+
+    <p>Numbers can be written with or without decimals:</p>
+
+    <p id="kosova"></p>
+
+<script>
+let x = 3.14; // decimal number
+let y = 3; // without decimal number
+// how can we write from variables in document javascript code 
+// ne kemi dhen paragraph nje id me emrin =kosova dhe automatikisht kur kemi id 
+// ne paragraf i thome kete dokument.getElementbyid , kete merrma element 
+// nga id dhe ("kosova") id dmth e ka emrin kosova dhe innerHTML ti tregojme qe do te aplikohet ne html
+// krejt kjo eshte e barabarte me x + <br> kurse br do te thote break qe do ti tregon machines te dali ne rresht te ri
+
+document.getElementById("kosova").innerHTML = x + "<br>" + y;
+</script>
+    
+    
+</body>
+</html>

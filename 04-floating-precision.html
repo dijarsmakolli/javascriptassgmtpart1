@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Floating Precision</title>
+</head>
+<body>
+<!-- Floating point arithmetic is not always 100% accurate:-->
+
+    <h2>JavaScript Numbers</h2>
+
+    <p>Floating point arithmetic is not always 100% accurate:</p>
+
+    <p id="zvicra"></p>
+
+    <p>But it helps to multiply and divide</p>
+
+    <p id="zvicra02"></p>
+
+    <script>
+    let x = 0.2 + 0.1;
+    document.getElementById("zvicra").innerHTML = "0.2 + 0.1 = " + x;
+    // kjo eshte deri ketu normale por nuk eshte 100 % e sakte per te bere te sakte do te ndihmoje shumezimi dhe pjestimi
+    let y = (0.2*10 + 0.1*10) /10;
+    // * eshte shumezim dhe / eshte pjestim
+    document.getElementById("zvicra02").innerHTML = "0.2 + 0.1 = " + y;
+    </script>
+    
+</body>
+</html>
